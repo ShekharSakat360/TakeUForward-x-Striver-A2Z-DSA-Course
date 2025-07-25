@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+void print1(int n)
+{
+    for(int i=0; i<n; i++)
+    {
+        for(int j=n; j>1; j--)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+        
+    }
+   
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+
+    while(t--)
+    {
+        int n; 
+        cin >> n;
+        print1(n);
+
+    }
+
+}
